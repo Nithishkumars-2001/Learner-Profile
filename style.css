@@ -268,7 +268,7 @@ input:focus{
         box-shadow: rgba(0, 0, 0, 0.15)0px 1px 4px;
         border-radius: 5px;
         min-height: 200vh;
-        min-width: 600px;
+        min-width: 520px;
     }
     
     .section1-edit{
