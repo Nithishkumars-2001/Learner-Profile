@@ -1,0 +1,176 @@
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background: rgb(6, 90, 90);
+    font-family: calibri;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+li{
+    font-style: none;
+    display:inline-block;
+}
+
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.sign-btn{
+    background: rgba(231, 148, 148, 0.4);
+    margin-left: 10px;;
+    padding: 10px;
+    border-radius: 12px;
+    width: 90px;
+    border: none;
+}
+
+.sign-btn a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-btn:hover{
+    background: rgba(250, 250, 249, 0.4);
+}
+
+.user-profile{
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.user-profile img{
+    width: 125px;
+    border-radius: 50%;
+}
+
+.user-profile h4{
+    color: #ccc;
+    padding: 0;
+}
+
+.side-bar{
+    width: 250px;
+    background: #262931;
+    min-height: 100vh;
+    margin-top: 5px;
+}
+
+.body{
+    display: flex;
+}
+
+.section1{
+    flex: 2;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15)0px 1px 4px;
+    border-radius: 5px;
+    min-height: 100vh;
+}
+
+.section1-edit{
+    display: inline-block;
+    margin: 15px 0;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.input-container{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.input-container label{
+     color: black;
+     font-size: 20px;
+}
+
+.input-container input{
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(43, 37, 37);
+    padding: 5px;
+    color: rgba(19, 17, 17);
+    font-size: 16px;
+}
+
+input:focus{
+    background-color: whitesmoke;
+}
+
+.upload-img{
+    color: black;
+    font-size: 20px;
+}
+
+.upload-btn{
+    margin-top: 8px;
+    position: relative;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 0;
+}
+
+.update-btn{
+    margin-top: 15px;
+    color: white;
+    background-color: blue;
+    width: 70px;
+    height: 35px;
+    border: 0;
+}
+
+.update-btn:hover{
+    cursor: pointer;
+    background-color: rgb(6, 6, 185);
+}
+
+.side-bar ul{
+    margin-top: 25px;
+    list-style: none;
+}
+
+.side-bar ul li{
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.side-bar ul li:hover{
+    background-color: rgb(6, 90, 90);
+    border-radius: 15px;
+}
+
+.side-bar ul li a{
+    color: #eee;
+    cursor: pointer;
+    letter-spacing: 1px
+}
+
+.side-bar ul li a i{
+    display: inline block;
+    padding-right: 10px;
+}
+
