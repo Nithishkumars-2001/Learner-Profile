@@ -1,15 +1,20 @@
 
-var section_1 = document.querySelector(".section1")
-var courses = document.querySelector(".courses")
+var profile_box = document.querySelector(".profile-box")
+var courses_box = document.querySelector(".courses-box")
 
-function show_profile(){
-    section_1.style.display = "block"
-    courses.style.display = "none"
-}
+var choose_profile = document.querySelector(".choose-profile")
+var choose_courses = document.querySelector(".choose-courses")
 
-function show_courses(){
-    section_1.style.display = "none"
-}
+choose_profile.addEventListener("click", () => {
+    profile_box.style.display = "block"
+    courses_box.style.display = "none"
+})
+
+choose_courses.addEventListener("click", () => {
+    profile_box.style.display = "none"
+    courses_box.style.display = "block"
+})
+
 
 
 var course_option1 = document.querySelector(".course-option1")
